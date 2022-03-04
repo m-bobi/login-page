@@ -1,0 +1,61 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login | Arctic</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="page">
+    <div class="container">
+      <div class="left">
+        <div class="login">Login</div>
+        <div class="eula">
+          By logging in you agree to the ridiculously long terms that you
+          didn't bother to read.
+        </div>
+      </div>
+      <div class="right">
+        <div class="form">
+          <div class="emailOutline">
+            <label for="email">Email</label>
+            <input class="outline" type="email" id="email" autocomplete="off" />
+            <span class="border"></span>
+          </div>
+
+          <div class="passOutline">
+            <label for="password">Password</label>
+            <input class="outline" type="password" id="password" />
+            <span class="border"></span>
+          </div>
+
+          <div class="subOutline">
+            <input class="outline" type="submit" id="submit" value="Login In" />
+            <span class="border"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="createAccount">
+      <p><a href="#">Create Account</a></p>
+      <div class="forgotPassword">
+        <p><a href="#">Forgot Password?</a></p>
+      </div>
+    </div>
+  </div>
+  <div id="overlay"></div>
+  <div id="popup">
+    <div class="popupcontrols">
+      <span id="popupclose">X</span>
+    </div>
+    <div class="popupcontent">
+      <h1>Successfully logged in!</h1>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
